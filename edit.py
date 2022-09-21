@@ -1,6 +1,7 @@
 import locale
 import os
 import json
+import sass
 import jinja2
 from dictknife import deepmerge
 
@@ -75,6 +76,10 @@ def post(postdata):
     )
     with open(os.path.join(docroot, "index.html"), "w") as f:
         f.write(generated)
+    sass.compile(
+        dirname=(os.path.join(docroot, "res/scss"), os.path.join(docroot, "css")),
+        output_style="compressed",
+    )
     with open(data_path, "w") as f:
         json.dump(data, f)
     return tpl_env.get_template("edit.html").render(

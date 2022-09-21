@@ -1,2 +1,3 @@
+libsass
 jinja2
 dictknife
