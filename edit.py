@@ -82,7 +82,7 @@ def post(postdata):
     )
     with open(data_path, "w") as f:
         json.dump(data, f)
-    return tpl_env.get_template("edit.html").render(
+    return tpl_env.get_template("edit_inner.html").render(
         tournaments=make_tournaments(data["tournaments"])
     )
 
