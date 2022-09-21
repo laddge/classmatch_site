@@ -1,0 +1,40 @@
+{%- extends "base.html" -%}
+{%- block content -%}
+<div class="mx-3 my-5">
+    <h2 class="text-center">YouTubeライブ idリスト</h2>
+    <textarea class="form-control w-100" id="input" rows="7">{{ yt_list }}</textarea>
+    <button type="button" id="saveBtn" class="btn btn-primary w-100" onclick="save();">
+        <div id="spinner" class="spinner-border spinner-border-sm d-none" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        保存
+    </button>
+</div>
+<script type="text/javascript">
+    function save() {
+        const input = document.getElementById('input');
+        const saveBtn = document.getElementById('saveBtn');
+        const spinner = document.getElementById('spinner');
+        saveBtn.disabled = true;
+        spinner.classList.remove('d-none');
+        const opt = {};
+        opt['method'] = 'POST';
+        opt['body'] = JSON.stringify(input.value.split(/\r\n|\n/));
+        fetch('', opt)
+            .then(response => {
+                return response.text();
+            })
+            .then(content => {
+                spinner.classList.add('d-none');
+                saveBtn.disabled = false;
+                alert('保存しました');
+            })
+            .catch(error => {
+                console.log(error);
+                spinner.classList.add('d-none');
+                saveBtn.disabled = false;
+                alert('何かがおかしい');
+            });
+    }
+</script>
+{%- endblock -%}

@@ -87,13 +87,48 @@ def post(postdata):
     )
 
 
+def get_yt():
+    data = {"tournaments": {}, "yt_list": []}
+    if os.path.exists(data_path):
+        with open(data_path) as f:
+            data = json.load(f)
+    return tpl_env.get_template("edit_yt.html").render(
+        yt_list="\n".join(data["yt_list"])
+    )
+
+
+def post_yt(postdata):
+    data = {"tournaments": {}, "yt_list": []}
+    if os.path.exists(data_path):
+        with open(data_path) as f:
+            data = json.load(f)
+    data["yt_list"] = [s for s in postdata if s]
+    with open(data_path, "w") as f:
+        json.dump(data, f)
+    generated = tpl_env.get_template("main.html").render(
+        ids=data["yt_list"],
+        tournaments=make_tournaments(data["tournaments"]),
+    )
+    with open(os.path.join(docroot, "index.html"), "w") as f:
+        f.write(generated)
+    return
+
+
 def application(environ, start_response):
     body = ""
     method = environ.get("REQUEST_METHOD")
+    query = environ.get("QUERY_STRING").split("&")
     if method == "GET":
-        body = get()
+        if "s=yt" in query:
+            body = get_yt()
+        else:
+            body = get()
     elif method == "POST":
-        body = post(json.loads(environ.get("wsgi.input").read()))
+        postdata = json.loads(environ.get("wsgi.input").read())
+        if "s=yt" in query:
+            body = post_yt(postdata)
+        else:
+            body = post(postdata)
     status = "200 OK"
     headers = [("Content-type", "text/html")]
     start_response(status, headers)
