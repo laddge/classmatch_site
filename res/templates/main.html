@@ -1,0 +1,49 @@
+{%- extends "base.html" -%}
+{%- block content -%}
+<div class="m3-container mx-3 mt-5 p-4">
+    <h2 class="mb-4 fs-5 text-center">トーナメント表 / 結果</h2>
+    <div class="container-fluid px-1">
+        <div class="mt-2 row row-cols-2 row-cols-sm-3 g-2">
+            {%- for t, tournament in tournaments.items() -%}
+            <div class="col">
+                <button type="button" class="btn btn-primary rounded-pill border-0 shadow-none w-100 py-2" data-bs-toggle="modal" data-bs-target="#tournamentModal{{ loop.index0 }}">
+                    {%- include "icons/" + tournament.icon -%}<br><span style="font-size: .9rem;">{{ tournament.name }}</span></button>
+            </div>
+            {%- endfor -%}
+        </div>
+    </div>
+    {%- for t, tournament in tournaments.items() -%}
+    <div class="modal fade" id="tournamentModal{{ loop.index0 }}" tabindex="-1" aria-labelledby="tournamentModalLabel{{ loop.index0 }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tournamentModalLabel{{ loop.index0 }}">{{ tournament.name }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                {%- set tops = [] -%}{%- for cell in tournament.cells -%}{%- set _ = tops.append(cell.split("_")[0]|int) -%}{%- endfor -%}
+                <div class="modal-body" style="position: relative; height: {{ tops|max + 2 }}em; overflow-x: hidden;">
+                    {%- include "tournament.html" -%}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary rounded-pill" data-bs-dismiss="modal">閉じる</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%- endfor -%}
+</div>
+<div class="m3-container mx-3 mt-4 mb-3 px-3 pt-4 pb-3">
+    <h2 class="mb-4 fs-5 text-center">ライブ配信</h2>
+    {%- if not ids -%}
+    <div class="rounded py-2 text-center" style="background-color: #efc39f;">準備中</div>
+    {%- endif -%}
+    {%- for id in ids -%}
+    <lite-youtube class="w-100 mb-3 rounded-3" videoid="{{ id }}" params="rel=0"></lite-youtube>
+    {%- endfor -%}
+    <style>
+        lite-youtube::before { content: none; }
+        lite-youtube > iframe { width: calc(100% + 1px); }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.2.0/lite-yt-embed.min.js"></script>
+</div>
+{%- endblock -%}

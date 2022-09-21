@@ -1,0 +1,6 @@
+{%- set colors = ["#adb5bd", "#dc3545"] -%}
+{%- for cell in tournament.cells -%}
+<div style="position: absolute; top: {{ cell.split('_')[0] }}em; left: {{ (cell.split('_')[1])|float * 13 }}%; height: calc(1em + 3px); width: calc(13% + 3px); padding-{% if tournament.cells[cell].align_left %}left: 8{% else %}right: 10{% endif %}px;{% if tournament.cells[cell].border_top %} border-top: 3px solid {{ colors[tournament.cells[cell].border_top - 1] }};{% endif %}{% if tournament.cells[cell].border_left %} border-left: 3px solid {{ colors[tournament.cells[cell].border_left - 1] }};{% endif %}">
+    <div style="font-size: 0.8em; width: 100%;{% if not tournament.cells[cell].align_left %} text-align: right;{% endif %}{% if tournament.cells[cell].color %} color: {{ colors[tournament.cells[cell].color - 1] }};{% endif %}">{{ tournament.cells[cell].text }}</div>
+</div>
+{%- endfor -%}
