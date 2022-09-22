@@ -115,10 +115,15 @@ def post_yt(postdata):
 
 
 def application(environ, start_response):
+    status = "200 OK"
+    headers = [("Content-type", "text/html")]
     body = ""
     method = environ.get("REQUEST_METHOD")
     query = environ.get("QUERY_STRING").split("&")
-    if method == "GET":
+    if "key=" + environ.get("EDIT_KEY") not in query:
+        status = "403 Forbidden"
+        body = "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"><html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You don't have permission to access this resource.</p><hr>{}</body></html>".format(environ.get("SERVER_SIGNATURE"))
+    elif method == "GET":
         if "s=yt" in query:
             body = get_yt()
         else:
@@ -129,7 +134,5 @@ def application(environ, start_response):
             body = post_yt(postdata)
         else:
             body = post(postdata)
-    status = "200 OK"
-    headers = [("Content-type", "text/html")]
     start_response(status, headers)
     return [body.encode()]
