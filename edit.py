@@ -1,7 +1,7 @@
 import locale
 import os
+import glob
 import json
-import sass
 import jinja2
 from dictknife import deepmerge
 
@@ -10,6 +10,10 @@ os.chdir(os.path.dirname(__file__))
 tpl_env = jinja2.Environment(
     loader=jinja2.FileSystemLoader("res/templates")
 )
+tpl_env.globals.update({
+    "light_css": "/" + glob.glob("css/light-*.css")[0],
+    "dark_css": "/" + glob.glob("css/dark-*.css")[0]
+})
 
 
 def make_tournaments(tournaments):
@@ -75,10 +79,6 @@ def post(postdata):
     )
     with open("index.html", "w") as f:
         f.write(generated)
-    sass.compile(
-        dirname=("res/scss", "css"),
-        output_style="compressed",
-    )
     with open("data.json", "w") as f:
         json.dump(data, f)
     return tpl_env.get_template("edit_inner.html").render(
