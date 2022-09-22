@@ -6,15 +6,14 @@ import jinja2
 from dictknife import deepmerge
 
 locale.setlocale(locale.LC_CTYPE, ("en_US", "UTF-8"))
-docroot = os.path.dirname(__file__)
-data_path = os.path.join(docroot, "data.json")
+os.chdir(os.path.dirname(__file__))
 tpl_env = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(os.path.join(docroot, "res/templates"))
+    loader=jinja2.FileSystemLoader("res/templates")
 )
 
 
 def make_tournaments(tournaments):
-    with open(os.path.join(docroot, "res/tournaments_base.json")) as f:
+    with open("res/tournaments_base.json") as f:
         tournaments_base = json.load(f)
     for t, matches in tournaments.items():
         _matches = {}
@@ -51,8 +50,8 @@ def make_tournaments(tournaments):
 
 def get():
     data = {"tournaments": {}, "yt_list": []}
-    if os.path.exists(data_path):
-        with open(data_path) as f:
+    if os.path.exists("data.json"):
+        with open("data.json") as f:
             data = json.load(f)
     return tpl_env.get_template("edit.html").render(
         tournaments=make_tournaments(data["tournaments"])
@@ -61,8 +60,8 @@ def get():
 
 def post(postdata):
     data = {"tournaments": {}, "yt_list": []}
-    if os.path.exists(data_path):
-        with open(data_path) as f:
+    if os.path.exists("data.json"):
+        with open("data.json") as f:
             data = json.load(f)
     yt_list = [s for s in data["yt_list"] if s]
     for t, tournament in postdata["tournaments"].items():
@@ -74,13 +73,13 @@ def post(postdata):
         ids=yt_list,
         tournaments=make_tournaments(data["tournaments"]),
     )
-    with open(os.path.join(docroot, "index.html"), "w") as f:
+    with open("index.html", "w") as f:
         f.write(generated)
     sass.compile(
-        dirname=(os.path.join(docroot, "res/scss"), os.path.join(docroot, "css")),
+        dirname=("res/scss", "css"),
         output_style="compressed",
     )
-    with open(data_path, "w") as f:
+    with open("data.json", "w") as f:
         json.dump(data, f)
     return tpl_env.get_template("edit_inner.html").render(
         tournaments=make_tournaments(data["tournaments"])
@@ -89,8 +88,8 @@ def post(postdata):
 
 def get_yt():
     data = {"tournaments": {}, "yt_list": []}
-    if os.path.exists(data_path):
-        with open(data_path) as f:
+    if os.path.exists("data.json"):
+        with open("data.json") as f:
             data = json.load(f)
     return tpl_env.get_template("edit_yt.html").render(
         yt_list="\n".join(data["yt_list"])
@@ -99,17 +98,17 @@ def get_yt():
 
 def post_yt(postdata):
     data = {"tournaments": {}, "yt_list": []}
-    if os.path.exists(data_path):
-        with open(data_path) as f:
+    if os.path.exists("data.json"):
+        with open("data.json") as f:
             data = json.load(f)
     data["yt_list"] = [s for s in postdata if s]
-    with open(data_path, "w") as f:
+    with open("data.json", "w") as f:
         json.dump(data, f)
     generated = tpl_env.get_template("main.html").render(
         ids=data["yt_list"],
         tournaments=make_tournaments(data["tournaments"]),
     )
-    with open(os.path.join(docroot, "index.html"), "w") as f:
+    with open("index.html", "w") as f:
         f.write(generated)
     return
 
