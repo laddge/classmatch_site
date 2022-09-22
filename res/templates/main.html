@@ -38,7 +38,7 @@
     <div class="rounded py-2 text-center border border-primary">準備中</div>
     {%- endif -%}
     {%- for id in ids -%}
-    <lite-youtube class="w-100 mb-3 rounded-3" videoid="{{ id }}" params="rel=0"></lite-youtube>
+    <lite-youtube class="w-100 mb-3 rounded-3" videoid="{{ id }}" params="rel=0" style="background-image: url('https://i.ytimg.com/vi_webp/{{ id }}/hqdefault.webp');"></lite-youtube>
     {%- endfor -%}
     <style>
         lite-youtube::before { content: none; }
