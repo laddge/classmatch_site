@@ -10,10 +10,6 @@ os.chdir(os.path.dirname(__file__))
 tpl_env = jinja2.Environment(
     loader=jinja2.FileSystemLoader("res/templates")
 )
-tpl_env.globals.update({
-    "light_css": "/" + glob.glob("css/light-*.css")[0],
-    "dark_css": "/" + glob.glob("css/dark-*.css")[0]
-})
 
 
 def make_tournaments(tournaments):
@@ -58,7 +54,9 @@ def get():
         with open("data.json") as f:
             data = json.load(f)
     return tpl_env.get_template("edit.html").render(
-        tournaments=make_tournaments(data["tournaments"])
+        tournaments=make_tournaments(data["tournaments"]),
+        light_css="/" + glob.glob("css/light-*.css")[0],
+        dark_css="/" + glob.glob("css/dark-*.css")[0]
     )
 
 
@@ -76,6 +74,8 @@ def post(postdata):
     generated = tpl_env.get_template("main.html").render(
         ids=yt_list,
         tournaments=make_tournaments(data["tournaments"]),
+        light_css="/" + glob.glob("css/light-*.css")[0],
+        dark_css="/" + glob.glob("css/dark-*.css")[0]
     )
     with open("index.html", "w") as f:
         f.write(generated)
@@ -92,7 +92,9 @@ def get_yt():
         with open("data.json") as f:
             data = json.load(f)
     return tpl_env.get_template("edit_yt.html").render(
-        yt_list="\n".join(data["yt_list"])
+        yt_list="\n".join(data["yt_list"]),
+        light_css="/" + glob.glob("css/light-*.css")[0],
+        dark_css="/" + glob.glob("css/dark-*.css")[0]
     )
 
 
@@ -107,6 +109,8 @@ def post_yt(postdata):
     generated = tpl_env.get_template("main.html").render(
         ids=data["yt_list"],
         tournaments=make_tournaments(data["tournaments"]),
+        light_css="/" + glob.glob("css/light-*.css")[0],
+        dark_css="/" + glob.glob("css/dark-*.css")[0]
     )
     with open("index.html", "w") as f:
         f.write(generated)
