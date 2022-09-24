@@ -12,6 +12,9 @@
             {%- endfor -%}
         </div>
     </div>
+    <style>
+        .point { display: none; }
+    </style>
     {%- for t, tournament in tournaments.items() -%}
     <div class="modal fade" id="tournamentModal{{ loop.index0 }}" tabindex="-1" aria-labelledby="tournamentModalLabel{{ loop.index0 }}" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
@@ -20,9 +23,17 @@
                     <h5 class="modal-title" id="tournamentModalLabel{{ loop.index0 }}">{{ tournament.name }}</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                {%- set tops = [] -%}{%- for cell in tournament.cells -%}{%- set _ = tops.append(cell.split("_")[0]|int) -%}{%- endfor -%}
-                <div class="modal-body" style="position: relative; height: {{ tops|max + 2 }}em; overflow-x: hidden;">
-                    {%- include "tournament.html" -%}
+                <div class="modal-body">
+                    <div class="text-end">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input point-toggle" type="checkbox" value="" id="pointToggle{{ loop.index0 }}" onchange="togglePoint(this);">
+                            <label class="form-check-label" for="pointToggle{{ loop.index0 }}">得点表示</label>
+                        </div>
+                    </div>
+                    {%- set tops = [] -%}{%- for cell in tournament.cells -%}{%- set _ = tops.append(cell.split("_")[0]|int) -%}{%- endfor -%}
+                    <div style="position: relative; height: {{ tops|max + 2 }}em; overflow-x: hidden;">
+                        {%- include "tournament.html" -%}
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary rounded-pill" data-bs-dismiss="modal">閉じる</button>
@@ -46,4 +57,23 @@
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.2.0/lite-yt-embed.min.js"></script>
 </div>
+<script type="text/javascript">
+    function togglePoint(el) {
+        if (el.checked) {
+            document.querySelectorAll('.point-toggle').forEach(ch => {
+                ch.checked = true;
+            });
+            document.querySelectorAll('.point').forEach(po => {
+                po.style.display = 'block';
+            });
+        } else {
+            document.querySelectorAll('.point-toggle').forEach(ch => {
+                ch.checked = false;
+            });
+            document.querySelectorAll('.point').forEach(po => {
+                po.style.display = 'none';
+            });
+        }
+    }
+</script>
 {%- endblock -%}

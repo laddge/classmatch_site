@@ -719,10 +719,12 @@
                             "cells": {
                                 "0_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "3_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -767,10 +769,12 @@
                             "cells": {
                                 "6_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -815,10 +819,12 @@
                             "cells": {
                                 "12_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "15_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -863,10 +869,12 @@
                             "cells": {
                                 "18_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -911,10 +919,12 @@
                             "cells": {
                                 "24_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "27_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -959,10 +969,12 @@
                             "cells": {
                                 "30_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1007,10 +1019,12 @@
                             "cells": {
                                 "36_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "39_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1055,10 +1069,12 @@
                             "cells": {
                                 "42_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1105,10 +1121,12 @@
                             "cells": {
                                 "1_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "5_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1155,10 +1173,12 @@
                             "cells": {
                                 "7_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "11_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1205,10 +1225,12 @@
                             "cells": {
                                 "13_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "17_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1255,10 +1277,12 @@
                             "cells": {
                                 "19_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "23_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1305,10 +1329,12 @@
                             "cells": {
                                 "25_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "29_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1355,10 +1381,12 @@
                             "cells": {
                                 "31_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "35_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1405,10 +1433,12 @@
                             "cells": {
                                 "37_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "41_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1455,10 +1485,12 @@
                             "cells": {
                                 "43_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1507,10 +1539,12 @@
                             "cells": {
                                 "2_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1559,10 +1593,12 @@
                             "cells": {
                                 "14_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1611,10 +1647,12 @@
                             "cells": {
                                 "26_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1663,10 +1701,12 @@
                             "cells": {
                                 "38_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -1733,10 +1773,12 @@
                             "cells": {
                                 "5_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "18_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "44.5_4": {
@@ -1809,10 +1851,12 @@
                             "cells": {
                                 "29_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "42_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "46.5_4": {
@@ -1921,10 +1965,12 @@
                             "cells": {
                                 "11_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "36_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "25_6": {
@@ -1973,10 +2019,12 @@
                             "cells": {
                                 "44_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_6": {
@@ -2709,10 +2757,12 @@
                             "cells": {
                                 "0_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "3_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -2757,10 +2807,12 @@
                             "cells": {
                                 "6_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -2805,10 +2857,12 @@
                             "cells": {
                                 "12_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "15_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -2853,10 +2907,12 @@
                             "cells": {
                                 "18_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -2901,10 +2957,12 @@
                             "cells": {
                                 "24_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "27_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -2949,10 +3007,12 @@
                             "cells": {
                                 "30_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -2997,10 +3057,12 @@
                             "cells": {
                                 "36_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "39_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3045,10 +3107,12 @@
                             "cells": {
                                 "42_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3095,10 +3159,12 @@
                             "cells": {
                                 "1_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "5_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3145,10 +3211,12 @@
                             "cells": {
                                 "7_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "11_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3195,10 +3263,12 @@
                             "cells": {
                                 "13_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "17_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3245,10 +3315,12 @@
                             "cells": {
                                 "19_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "23_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3295,10 +3367,12 @@
                             "cells": {
                                 "25_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "29_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3345,10 +3419,12 @@
                             "cells": {
                                 "31_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "35_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3395,10 +3471,12 @@
                             "cells": {
                                 "37_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "41_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3445,10 +3523,12 @@
                             "cells": {
                                 "43_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3497,10 +3577,12 @@
                             "cells": {
                                 "2_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3549,10 +3631,12 @@
                             "cells": {
                                 "14_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3601,10 +3685,12 @@
                             "cells": {
                                 "26_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3653,10 +3739,12 @@
                             "cells": {
                                 "38_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -3723,10 +3811,12 @@
                             "cells": {
                                 "5_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "18_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "44.5_4": {
@@ -3799,10 +3889,12 @@
                             "cells": {
                                 "29_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "42_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "46.5_4": {
@@ -3911,10 +4003,12 @@
                             "cells": {
                                 "11_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "36_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "25_6": {
@@ -3963,10 +4057,12 @@
                             "cells": {
                                 "44_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_6": {
@@ -4699,10 +4795,12 @@
                             "cells": {
                                 "0_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "3_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -4747,10 +4845,12 @@
                             "cells": {
                                 "6_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -4795,10 +4895,12 @@
                             "cells": {
                                 "12_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "15_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -4843,10 +4945,12 @@
                             "cells": {
                                 "18_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -4891,10 +4995,12 @@
                             "cells": {
                                 "24_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "27_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -4939,10 +5045,12 @@
                             "cells": {
                                 "30_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -4987,10 +5095,12 @@
                             "cells": {
                                 "36_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "39_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5035,10 +5145,12 @@
                             "cells": {
                                 "42_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5085,10 +5197,12 @@
                             "cells": {
                                 "1_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "5_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5135,10 +5249,12 @@
                             "cells": {
                                 "7_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "11_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5185,10 +5301,12 @@
                             "cells": {
                                 "13_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "17_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5235,10 +5353,12 @@
                             "cells": {
                                 "19_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "23_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5285,10 +5405,12 @@
                             "cells": {
                                 "25_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "29_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5335,10 +5457,12 @@
                             "cells": {
                                 "31_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "35_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5385,10 +5509,12 @@
                             "cells": {
                                 "37_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "41_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5435,10 +5561,12 @@
                             "cells": {
                                 "43_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5487,10 +5615,12 @@
                             "cells": {
                                 "2_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5539,10 +5669,12 @@
                             "cells": {
                                 "14_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5591,10 +5723,12 @@
                             "cells": {
                                 "26_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5643,10 +5777,12 @@
                             "cells": {
                                 "38_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -5713,10 +5849,12 @@
                             "cells": {
                                 "5_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "18_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "44.5_4": {
@@ -5789,10 +5927,12 @@
                             "cells": {
                                 "29_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "42_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "46.5_4": {
@@ -5901,10 +6041,12 @@
                             "cells": {
                                 "11_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "36_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "25_6": {
@@ -5953,10 +6095,12 @@
                             "cells": {
                                 "44_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_6": {
@@ -6689,10 +6833,12 @@
                             "cells": {
                                 "0_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "3_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -6737,10 +6883,12 @@
                             "cells": {
                                 "6_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -6785,10 +6933,12 @@
                             "cells": {
                                 "12_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "15_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -6833,10 +6983,12 @@
                             "cells": {
                                 "18_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -6881,10 +7033,12 @@
                             "cells": {
                                 "24_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "27_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -6929,10 +7083,12 @@
                             "cells": {
                                 "30_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -6977,10 +7133,12 @@
                             "cells": {
                                 "36_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "39_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7025,10 +7183,12 @@
                             "cells": {
                                 "42_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7075,10 +7235,12 @@
                             "cells": {
                                 "1_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "5_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7125,10 +7287,12 @@
                             "cells": {
                                 "7_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "11_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7175,10 +7339,12 @@
                             "cells": {
                                 "13_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "17_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7225,10 +7391,12 @@
                             "cells": {
                                 "19_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "23_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7275,10 +7443,12 @@
                             "cells": {
                                 "25_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "29_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7325,10 +7495,12 @@
                             "cells": {
                                 "31_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "35_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7375,10 +7547,12 @@
                             "cells": {
                                 "37_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "41_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7425,10 +7599,12 @@
                             "cells": {
                                 "43_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7477,10 +7653,12 @@
                             "cells": {
                                 "2_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7529,10 +7707,12 @@
                             "cells": {
                                 "14_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7581,10 +7761,12 @@
                             "cells": {
                                 "26_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7633,10 +7815,12 @@
                             "cells": {
                                 "38_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -7703,10 +7887,12 @@
                             "cells": {
                                 "5_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "18_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "44.5_4": {
@@ -7779,10 +7965,12 @@
                             "cells": {
                                 "29_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "42_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "46.5_4": {
@@ -7891,10 +8079,12 @@
                             "cells": {
                                 "11_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "36_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "25_6": {
@@ -7943,10 +8133,12 @@
                             "cells": {
                                 "44_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_6": {
@@ -8679,10 +8871,12 @@
                             "cells": {
                                 "0_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "3_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -8727,10 +8921,12 @@
                             "cells": {
                                 "6_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -8775,10 +8971,12 @@
                             "cells": {
                                 "12_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "15_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -8823,10 +9021,12 @@
                             "cells": {
                                 "18_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -8871,10 +9071,12 @@
                             "cells": {
                                 "24_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "27_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -8919,10 +9121,12 @@
                             "cells": {
                                 "30_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -8967,10 +9171,12 @@
                             "cells": {
                                 "36_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "39_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9015,10 +9221,12 @@
                             "cells": {
                                 "42_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9065,10 +9273,12 @@
                             "cells": {
                                 "1_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "5_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9115,10 +9325,12 @@
                             "cells": {
                                 "7_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "11_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9165,10 +9377,12 @@
                             "cells": {
                                 "13_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "17_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9215,10 +9429,12 @@
                             "cells": {
                                 "19_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "23_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9265,10 +9481,12 @@
                             "cells": {
                                 "25_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "29_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9315,10 +9533,12 @@
                             "cells": {
                                 "31_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "35_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9365,10 +9585,12 @@
                             "cells": {
                                 "37_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "41_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9415,10 +9637,12 @@
                             "cells": {
                                 "43_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9467,10 +9691,12 @@
                             "cells": {
                                 "2_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9519,10 +9745,12 @@
                             "cells": {
                                 "14_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9571,10 +9799,12 @@
                             "cells": {
                                 "26_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9623,10 +9853,12 @@
                             "cells": {
                                 "38_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -9693,10 +9925,12 @@
                             "cells": {
                                 "5_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "18_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "44.5_4": {
@@ -9769,10 +10003,12 @@
                             "cells": {
                                 "29_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "42_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "46.5_4": {
@@ -9881,10 +10117,12 @@
                             "cells": {
                                 "11_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "36_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "25_6": {
@@ -9933,10 +10171,12 @@
                             "cells": {
                                 "44_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_6": {
@@ -10669,10 +10909,12 @@
                             "cells": {
                                 "0_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "3_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -10717,10 +10959,12 @@
                             "cells": {
                                 "6_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -10765,10 +11009,12 @@
                             "cells": {
                                 "12_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "15_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -10813,10 +11059,12 @@
                             "cells": {
                                 "18_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -10861,10 +11109,12 @@
                             "cells": {
                                 "24_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "27_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -10909,10 +11159,12 @@
                             "cells": {
                                 "30_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -10957,10 +11209,12 @@
                             "cells": {
                                 "36_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "39_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11005,10 +11259,12 @@
                             "cells": {
                                 "42_1": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_1": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11055,10 +11311,12 @@
                             "cells": {
                                 "1_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "5_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11105,10 +11363,12 @@
                             "cells": {
                                 "7_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "11_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11155,10 +11415,12 @@
                             "cells": {
                                 "13_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "17_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11205,10 +11467,12 @@
                             "cells": {
                                 "19_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "23_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11255,10 +11519,12 @@
                             "cells": {
                                 "25_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "29_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11305,10 +11571,12 @@
                             "cells": {
                                 "31_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "35_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11355,10 +11623,12 @@
                             "cells": {
                                 "37_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "41_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11405,10 +11675,12 @@
                             "cells": {
                                 "43_2": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_2": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11457,10 +11729,12 @@
                             "cells": {
                                 "2_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "9_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11509,10 +11783,12 @@
                             "cells": {
                                 "14_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "21_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11561,10 +11837,12 @@
                             "cells": {
                                 "26_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "33_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11613,10 +11891,12 @@
                             "cells": {
                                 "38_3": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "45_3": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 }
                             },
@@ -11683,10 +11963,12 @@
                             "cells": {
                                 "5_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "18_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "44.5_4": {
@@ -11759,10 +12041,12 @@
                             "cells": {
                                 "29_4": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "42_4": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "46.5_4": {
@@ -11871,10 +12155,12 @@
                             "cells": {
                                 "11_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "36_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "25_6": {
@@ -11923,10 +12209,12 @@
                             "cells": {
                                 "44_5": {
                                     "text": "{point0}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_5": {
                                     "text": "{point1}",
+                                    "class": "point",
                                     "color": 2
                                 },
                                 "47_6": {
