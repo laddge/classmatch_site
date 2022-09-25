@@ -3,6 +3,18 @@
 <div id="editInner">
     {%- include "edit_inner.html" -%}
 </div>
+{%- endblock -%}
+{%- block bottom -%}
+<div style="margin-bottom: 100px;"></div>
+<div class="background position-fixed bottom-0 left-0 px-3 pt-3 pb-4 w-100 d-flex border-top">
+    {%- for t, tournament in tournaments.items() -%}
+    <div class="flex-fill text-center">
+        <a href="#{{ t }}" class="text-reset">
+            {%- include "icons/" + tournament.icon -%}
+        </a>
+    </div>
+    {%- endfor -%}
+</div>
 <script type="text/javascript">
     function changed(mid) {
         const point0Default = document.getElementById('point0Default' + mid);

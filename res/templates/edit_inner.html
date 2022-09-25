@@ -1,5 +1,5 @@
 {%- for t, tournament in tournaments.items() -%}
-<h1 class="m-4 mt-5 fw-bold">{{ tournament.name }}</h1>
+<h1 class="mx-4 fw-bold" id="{{ t }}" style="padding-top: 81px; margin-top:-81px;">{{ tournament.name }}</h1>
 {%- set tops = [] -%}{%- for cell in tournament.cells -%}{%- set _ = tops.append(cell.split("_")[0]|int) -%}{%- endfor -%}
 <div style="position: relative; height: {{ tops|max + 2 }}em; overflow-x: hidden;">
     {%- include "tournament.html" -%}
