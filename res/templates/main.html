@@ -1,13 +1,5 @@
 {%- extends "base.html" -%}
 {%- block content -%}
-<div class="alert alert-dismissible m3-container border border-primary mx-3 mt-5 pb-0" role="alert">
-<ul>
-    <li>SNS等でシェアしないでください。</li>
-    <li>不具合や間違いなどあったら<a href="https://docs.google.com/forms/d/e/1FAIpQLSeB4twCV6OXIVbWzECzVW7B_2xUzq-T1BoF7uNrJ-Ssly38xg/viewform" target="_blank">こちら</a>から報告してください。</li>
-    <li>このサイトでは, Google Analytics でアクセス解析をしています。くわしくは<a href="https://gist.github.com/laddge/ebfbebd65f8e7a8447a4a13957eb4723" target="_blank">こちら</a></li>
-</ul>
-<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
 <div class="m3-container mx-3 mt-4 p-4">
     <h2 class="mb-4 fs-5 text-center">トーナメント表 / 結果</h2>
     <div class="container-fluid px-1">
@@ -51,7 +43,7 @@
     </div>
     {%- endfor -%}
 </div>
-<div class="m3-container mx-3 mt-4 mb-3 px-3 pt-4 pb-3">
+<div class="m3-container mx-3 mt-4 px-3 pt-4 pb-3">
     <h2 class="mb-4 fs-5 text-center">ライブ配信</h2>
     {%- if not ids -%}
     <div class="rounded py-2 text-center border border-primary">準備中</div>
@@ -64,6 +56,13 @@
         lite-youtube > iframe { width: calc(100% + 1px); }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.2.0/lite-yt-embed.min.js"></script>
+</div>
+<div class="m3-container mx-3 mt-4 mb-3 px-3 py-4">
+    <ul class="my-0">
+        <li>SNS等でシェアしないでください。</li>
+        <li>不具合や間違いなどあったら<a href="https://docs.google.com/forms/d/e/1FAIpQLSeB4twCV6OXIVbWzECzVW7B_2xUzq-T1BoF7uNrJ-Ssly38xg/viewform" target="_blank">こちら</a>から報告してください。</li>
+        <li>このサイトでは, Google Analytics でアクセス解析をしています。くわしくは<a href="https://gist.github.com/laddge/ebfbebd65f8e7a8447a4a13957eb4723" target="_blank">こちら</a></li>
+    </ul>
 </div>
 <script type="text/javascript">
     function togglePoint(el) {
