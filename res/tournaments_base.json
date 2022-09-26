@@ -4075,7 +4075,7 @@
                     ]
                 },
                 "1B6": {
-                    "team0": "3-3",
+                    "team0": "3-4",
                     "edit_button": "34_3",
                     "update": [
                         {
@@ -4714,17 +4714,18 @@
                                     "border_left": 2
                                 },
                                 "32_5": {
+                                    "border_top": 2,
                                     "border_left": 2
-                                },
-                                "33_5": {
-                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
-                                "33_5": {
+                                "32_5": {
                                     "border_top": 2,
+                                    "border_left": 2
+                                },
+                                "33_5": {
                                     "border_left": 2
                                 },
                                 "34_5": {
@@ -6860,7 +6861,7 @@
                                     "color": 2,
                                     "class": "point"
                                 },
-                                "41.5_5": {
+                                "41.5_4": {
                                     "text": "{loser}"
                                 }
                             },
@@ -6935,7 +6936,7 @@
                                     "color": 2,
                                     "class": "point"
                                 },
-                                "45.5_5": {
+                                "45.5_4": {
                                     "text": "{loser}"
                                 }
                             },
@@ -8976,7 +8977,7 @@
                     ]
                 },
                 "1D3": {
-                    "team0": "3-7",
+                    "team0": "3-1",
                     "edit_button": "34_3",
                     "update": [
                         {
@@ -9615,17 +9616,18 @@
                                     "border_left": 2
                                 },
                                 "32_5": {
+                                    "border_top": 2,
                                     "border_left": 2
-                                },
-                                "33_5": {
-                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
-                                "33_5": {
+                                "32_5": {
                                     "border_top": 2,
+                                    "border_left": 2
+                                },
+                                "33_5": {
                                     "border_left": 2
                                 },
                                 "34_5": {
@@ -11440,7 +11442,7 @@
                     ]
                 },
                 "1B6": {
-                    "team0": "3-1",
+                    "team0": "3-7",
                     "edit_button": "34_3",
                     "update": [
                         {
@@ -12079,17 +12081,18 @@
                                     "border_left": 2
                                 },
                                 "32_5": {
+                                    "border_top": 2,
                                     "border_left": 2
-                                },
-                                "33_5": {
-                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
-                                "33_5": {
+                                "32_5": {
                                     "border_top": 2,
+                                    "border_left": 2
+                                },
+                                "33_5": {
                                     "border_left": 2
                                 },
                                 "34_5": {
@@ -14225,7 +14228,7 @@
                                     "color": 2,
                                     "class": "point"
                                 },
-                                "41.5_5": {
+                                "41.5_4": {
                                     "text": "{loser}"
                                 }
                             },
@@ -14300,7 +14303,7 @@
                                     "color": 2,
                                     "class": "point"
                                 },
-                                "45.5_5": {
+                                "45.5_4": {
                                     "text": "{loser}"
                                 }
                             },
