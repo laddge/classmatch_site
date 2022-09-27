@@ -2,7 +2,6 @@
     "tournaments": {
         "soccer": {
             "name": "男子サッカー",
-            "icon": "soccer.svg",
             "cells": {
                 "0.5_0": {
                     "text": "3-1"
@@ -2564,7 +2563,6 @@
         },
         "b_hand": {
             "name": "男子ハンド",
-            "icon": "handball.svg",
             "cells": {
                 "0.5_0": {
                     "text": "3-3"
@@ -5029,7 +5027,6 @@
         },
         "g_hand": {
             "name": "女子ハンド",
-            "icon": "handball.svg",
             "cells": {
                 "0.5_0": {
                     "text": "3-1"
@@ -7466,7 +7463,6 @@
         },
         "badminton": {
             "name": "男女バド",
-            "icon": "badminton.svg",
             "cells": {
                 "0.5_0": {
                     "text": "3-7"
@@ -9931,7 +9927,6 @@
         },
         "b_basket": {
             "name": "男子バスケ",
-            "icon": "basketball.svg",
             "cells": {
                 "0.5_0": {
                     "text": "3-1"
@@ -12396,7 +12391,6 @@
         },
         "g_basket": {
             "name": "女子バスケ",
-            "icon": "basketball.svg",
             "cells": {
                 "0.5_0": {
                     "text": "3-2"

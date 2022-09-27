@@ -10,7 +10,7 @@
     {%- for t, tournament in tournaments.items() -%}
     <div class="flex-fill text-center">
         <a href="#{{ t }}" class="text-reset">
-            {%- include "icons/" + tournament.icon -%}
+            {%- include "icons/" + t + ".svg" -%}
         </a>
     </div>
     {%- endfor -%}

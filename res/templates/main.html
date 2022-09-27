@@ -7,7 +7,7 @@
             {%- for t, tournament in tournaments.items() -%}
             <div class="col">
                 <button type="button" class="btn btn-primary rounded-pill border-0 shadow-none w-100 py-2" data-bs-toggle="modal" data-bs-target="#tournamentModal{{ loop.index0 }}">
-                    {%- include "icons/" + tournament.icon -%}<br><span style="font-size: .9rem;">{{ tournament.name }}</span></button>
+                    {%- include "icons/" + t + ".svg" -%}<br><span style="font-size: .9rem;">{{ tournament.name }}</span></button>
             </div>
             {%- endfor -%}
         </div>
