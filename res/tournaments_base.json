@@ -6175,7 +6175,7 @@
                                     "team0": "{winner}"
                                 },
                                 "2A6": {
-                                    "team0": "{winner}"
+                                    "team0": "{loser}"
                                 }
                             }
                         }
@@ -13581,7 +13581,7 @@
                                     "team0": "{winner}"
                                 },
                                 "2A6": {
-                                    "team0": "{winner}"
+                                    "team0": "{loser}"
                                 }
                             }
                         }
