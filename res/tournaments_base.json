@@ -6293,7 +6293,7 @@
                                     "team0": "{winner}"
                                 },
                                 "2A7": {
-                                    "team0": "{winner}"
+                                    "team0": "{loser}"
                                 }
                             }
                         }
@@ -6537,7 +6537,7 @@
                                     "team0": "{winner}"
                                 },
                                 "2B7": {
-                                    "team0": "{winner}"
+                                    "team0": "{loser}"
                                 }
                             }
                         }
@@ -13699,7 +13699,7 @@
                                     "team0": "{winner}"
                                 },
                                 "2A7": {
-                                    "team0": "{winner}"
+                                    "team0": "{loser}"
                                 }
                             }
                         }
@@ -13943,7 +13943,7 @@
                                     "team0": "{winner}"
                                 },
                                 "2B7": {
-                                    "team0": "{winner}"
+                                    "team0": "{loser}"
                                 }
                             }
                         }
