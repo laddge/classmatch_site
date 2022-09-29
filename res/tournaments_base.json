@@ -2150,11 +2150,17 @@
                                 "69_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "70_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "70_2": {
+                                    "border_top": 2
+                                },
                                 "70_3": {
                                     "border_left": 2
                                 },
@@ -4253,11 +4259,17 @@
                                 "69_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "70_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "70_2": {
+                                    "border_top": 2
+                                },
                                 "70_3": {
                                     "border_left": 2
                                 },
@@ -4297,11 +4309,17 @@
                                 "77_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "78_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "78_2": {
+                                    "border_top": 2
+                                },
                                 "78_3": {
                                     "border_left": 2
                                 },
@@ -7150,11 +7168,17 @@
                                 "65_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "66_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "66_2": {
+                                    "border_top": 2
+                                },
                                 "66_3": {
                                     "border_left": 2
                                 },
@@ -7194,11 +7218,17 @@
                                 "69_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "70_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "70_2": {
+                                    "border_top": 2
+                                },
                                 "70_3": {
                                     "border_left": 2
                                 },
@@ -7238,11 +7268,17 @@
                                 "77_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "78_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "78_2": {
+                                    "border_top": 2
+                                },
                                 "78_3": {
                                     "border_left": 2
                                 },
@@ -9153,11 +9189,17 @@
                                 "69_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "70_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "70_2": {
+                                    "border_top": 2
+                                },
                                 "70_3": {
                                     "border_left": 2
                                 },
@@ -9197,11 +9239,17 @@
                                 "77_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "78_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "78_2": {
+                                    "border_top": 2
+                                },
                                 "78_3": {
                                     "border_left": 2
                                 },
@@ -11617,11 +11665,17 @@
                                 "69_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "70_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "70_2": {
+                                    "border_top": 2
+                                },
                                 "70_3": {
                                     "border_left": 2
                                 },
@@ -11661,11 +11715,17 @@
                                 "77_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "78_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "78_2": {
+                                    "border_top": 2
+                                },
                                 "78_3": {
                                     "border_left": 2
                                 },
@@ -14514,11 +14574,17 @@
                                 "65_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "66_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "66_2": {
+                                    "border_top": 2
+                                },
                                 "66_3": {
                                     "border_left": 2
                                 },
@@ -14558,11 +14624,17 @@
                                 "69_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "70_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "70_2": {
+                                    "border_top": 2
+                                },
                                 "70_3": {
                                     "border_left": 2
                                 },
@@ -14602,11 +14674,17 @@
                                 "77_3": {
                                     "border_top": 2,
                                     "border_left": 2
+                                },
+                                "78_2": {
+                                    "border_top": 2
                                 }
                             }
                         },
                         {
                             "cells": {
+                                "78_2": {
+                                    "border_top": 2
+                                },
                                 "78_3": {
                                     "border_left": 2
                                 },
