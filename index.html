@@ -17,16 +17,16 @@
         <meta property="og:description" content="トーナメント表や試合結果、室内競技のライブ配信を見ることができます。">
         <meta property="og:image" content="https://res.cloudinary.com/laddge/image/upload/b_auto,c_pad,h_630,w_1200/v1663332601/classmatch/icon.png">
         <meta name="robots" content="noindex">
-        <link href="/css/light-64c6f23.css" rel="stylesheet">
-        <link href="/css/dark-e367a59.css" rel="stylesheet" media="(prefers-color-scheme: dark)">
+        <link href="css/light-64c6f23.css" rel="stylesheet">
+        <link href="css/dark-e367a59.css" rel="stylesheet" media="(prefers-color-scheme: dark)">
         <link rel="stylesheet" id="stylesheet" href="">
         <script type="text/javascript">
             function applyTheme() {
                 const el = document.getElementById('stylesheet');
                 if (sessionStorage.getItem('theme') == 'dark') {
-                    el.href = '/css/dark-e367a59.css';
+                    el.href = 'css/dark-e367a59.css';
                 } else if (sessionStorage.getItem('theme') == 'light') {
-                    el.href = '/css/light-64c6f23.css';
+                    el.href = 'css/light-64c6f23.css';
                 }
             }
             applyTheme();
@@ -34,10 +34,10 @@
                 const el = document.getElementById('stylesheet');
                 if (theme == 'dark') {
                     sessionStorage.setItem('theme', 'dark');
-                    el.href = '/css/dark-e367a59.css';
+                    el.href = 'css/dark-e367a59.css';
                 } else {
                     sessionStorage.setItem('theme', 'light');
-                    el.href = '/css/light-64c6f23.css';
+                    el.href = 'css/light-64c6f23.css';
                 }
             }
         </script>
